@@ -1,0 +1,77 @@
+@charset "UTF-8";
+body {
+    background-color: #87CEFA;
+    text-align: center;
+    color: #000000;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.btn-custom {
+    background-color: #6c757d; /* 배경색 */
+    color: #ffffff; /* 텍스트 색상 */
+    border-color: #6c757d; /* 테두리 색상 */
+}
+
+.btn-custom:hover {
+    background-color: #495057; /* 마우스 오버시 배경색 */
+    color: #ffffff; /* 마우스 오버시 텍스트 색상 */
+    border-color: #495057; /* 마우스 오버시 테두리 색상 */
+}
+
+.formtable {
+    width: 700px;
+    border: 5px solid blue;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #FFFFFF;
+}
+
+.label {
+    text-align: right;
+    vertical-align: top;
+    margin-right: 10px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.control {
+    margin-left: 10px;
+}
+
+textarea {
+    width: 300px;
+    height: 100px;
+}
+
+input[type=text] {
+    width: 500px;
+    border: 1px solid #ccc;
+    padding: 8px;
+    font-size: 16px;
+}
+
+input[type=submit] {
+    display: block;
+    width: 50%;
+    margin: 20px auto 0;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+.error {
+    font-size: 16px;
+    color: red;
+    margin-left: 10px;
+}
